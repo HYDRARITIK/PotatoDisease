@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import React from "react";
-import Home from "./pages/Home";
+import ImageUpload from "./pages/Home";
 
 
 
@@ -15,7 +15,7 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Home />,
+      element: <ImageUpload />,
     },
   ]);
 
